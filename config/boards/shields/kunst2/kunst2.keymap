@@ -45,7 +45,7 @@
 		};
 		combo_bt  {
 			timeout-ms = <10>;
-			key-positions = <11 12>;
+			key-positions = <10 12>;
 			bindings = <&to BT>;
 			layers = <SM1>; 
 		};
@@ -73,51 +73,51 @@
 			bindings = <&to IMG>;
 		};
 		bksp {
-			timeout-ms = <100>;
+			timeout-ms = <50>;
 			key-positions = <4 5>;
 			bindings = <&kp BKSP>;
 			layers = <AL1 AL2 AL2U>;
 		};
 		ret {
-			timeout-ms = <100>;
+			timeout-ms = <50>;
 			key-positions = <11 12>;
 			bindings = <&kp RET>;
 			layers = <AL1 AL2 AL2U>;
 		};
 		tab {
-			timeout-ms = <100>;
+			timeout-ms = <50>;
 			key-positions = <7 8>;
 			bindings = <&kp TAB>;
 			layers = <AL1 AL2 AL2U>;
 		};
 		esc {
-			timeout-ms = <100>;
+			timeout-ms = <50>;
 			key-positions = <0 1>;
 			bindings = <&kp ESC>;
 			layers = <AL1 AL2 AL2U>;
 		};
 		// Numbers
-		number_seven {
-			timeout-ms = <175>;
+		number_7 {
+			timeout-ms = <100>;
 			key-positions = <3 4>;
 			bindings = <&kp N7>;
 			layers = <NM1>;
 		};
-		number_eight {
-			timeout-ms = <175>;
+		number_8 {
+			timeout-ms = <100>;
 			key-positions = <4 5>;
 			bindings = <&kp N8>;
 			layers = <NM1>;
 		};
-		number_nine {
-			timeout-ms = <175>;
+		number_9 {
+			timeout-ms = <100>;
 			key-positions = <10 11>;
 			bindings = <&kp N9>;
 			layers = <NM1>;
 		};
-		number_zero {
-			timeout-ms = <175>;
-			key-positions = <11 12>;
+		number_0 {
+			timeout-ms = <100>;
+			key-positions = <10 11>;
 			bindings = <&kp N0>;
 			layers = <NM1>;
 		};
