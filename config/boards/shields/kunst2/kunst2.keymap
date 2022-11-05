@@ -97,6 +97,12 @@
 			layers = <AL1 AL2 AL2U>;
 		};
 		// Numbers
+		number_0 {
+			timeout-ms = <100>;
+			key-positions = <10 11>;
+			bindings = <&kp N0>;
+			layers = <NM1>;
+		};
 		number_7 {
 			timeout-ms = <100>;
 			key-positions = <3 4>;
@@ -113,12 +119,6 @@
 			timeout-ms = <100>;
 			key-positions = <10 11>;
 			bindings = <&kp N9>;
-			layers = <NM1>;
-		};
-		number_0 {
-			timeout-ms = <100>;
-			key-positions = <10 11>;
-			bindings = <&kp N0>;
 			layers = <NM1>;
 		};
 
