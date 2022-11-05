@@ -73,22 +73,53 @@
 			bindings = <&to IMG>;
 		};
 		bksp {
-			timeout-ms = <30>;
+			timeout-ms = <100>;
 			key-positions = <4 5>;
 			bindings = <&kp BKSP>;
-			layers = <AL1 AL2 AL2U>;
+			layers = <AL1 AL2 AL2U NM1>;
 		};
 		ret {
-			timeout-ms = <30>;
+			timeout-ms = <100>;
 			key-positions = <11 12>;
 			bindings = <&kp RET>;
 			layers = <AL1 AL2 AL2U>;
 		};
 		tab {
-			timeout-ms = <30>;
+			timeout-ms = <100>;
 			key-positions = <7 8>;
 			bindings = <&kp TAB>;
 			layers = <AL1 AL2 AL2U>;
+		};
+		esc {
+			timeout-ms = <100>;
+			key-positions = <0 1>;
+			bindings = <&kp ESC>;
+			layers = <AL1 AL2 AL2U>;
+		};
+		// Numbers
+		number_seven {
+			timeout-ms = <175>;
+			key-positions = <3 4>;
+			bindings = <&kp N7>;
+			layers = <NM1>;
+		};
+		number_eight {
+			timeout-ms = <175>;
+			key-positions = <4 5>;
+			bindings = <&kp N8>;
+			layers = <NM1>;
+		};
+		number_nine {
+			timeout-ms = <175>;
+			key-positions = <10 11>;
+			bindings = <&kp N9>;
+			layers = <NM1>;
+		};
+		number_zero {
+			timeout-ms = <175>;
+			key-positions = <11 12>;
+			bindings = <&kp N0>;
+			layers = <NM1>;
 		};
 
 	};
@@ -208,8 +239,8 @@
 
 		num {
 			bindings = <
-							&td DOT COMMA	&hm_l LALT N0	&hm_l LGUI N1		&hm_r RGUI N2	&hm_r RALT N3	&hm_r RCTL N4
-				&kp MINUS	&kp PLUS		&kp N5			&kp N6				&kp N7			&kp N8			&kp N9		&kp EQUAL
+							&td DOT COMMA	&hm_l LALT N0	&hm_l LGUI N1		&hm_r RGUI N1	&hm_r RALT N2	&hm_r RCTL N3
+				&kp MINUS	&kp PLUS		&kp N5			&kp N6				&kp N4			&kp N5			&kp N6		&kp EQUAL
 							&kp LSHIFT	&trans									&kp RCTL	&kp RGUI
 			>;
 		};
