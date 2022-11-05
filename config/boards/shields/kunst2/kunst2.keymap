@@ -76,13 +76,19 @@
 			timeout-ms = <30>;
 			key-positions = <4 5>;
 			bindings = <&kp BKSP>;
-			layers = <AL1 AL2>;
+			layers = <AL1 AL2 AL2U>;
 		};
 		ret {
 			timeout-ms = <30>;
 			key-positions = <11 12>;
 			bindings = <&kp RET>;
-			layers = <AL1 AL2>;
+			layers = <AL1 AL2 AL2U>;
+		};
+		tab {
+			timeout-ms = <30>;
+			key-positions = <7 8>;
+			bindings = <&kp TAB>;
+			layers = <AL1 AL2 AL2U>;
 		};
 
 	};
