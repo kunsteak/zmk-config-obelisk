@@ -75,14 +75,14 @@
 		bksp {
 			timeout-ms = <30>;
 			key-positions = <4 5>;
-			bindings = <&kp BKSP>
-			layers = <AL1>;
+			bindings = <&kp BKSP>;
+			layers = <AL1 AL2>;
 		};
 		ret {
 			timeout-ms = <30>;
 			key-positions = <11 12>;
-			bindings = <&kp RET>
-			layers = <AL1>;
+			bindings = <&kp RET>;
+			layers = <AL1 AL2>;
 		};
 
 	};
