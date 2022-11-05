@@ -76,7 +76,7 @@
 			timeout-ms = <100>;
 			key-positions = <4 5>;
 			bindings = <&kp BKSP>;
-			layers = <AL1 AL2 AL2U NM1>;
+			layers = <AL1 AL2 AL2U>;
 		};
 		ret {
 			timeout-ms = <100>;
