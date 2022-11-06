@@ -114,16 +114,16 @@
 			bindings = <&kp N7>;
 			layers = <NM1>;
 		};
-		number_8 {
-			timeout-ms = <100>;
-			key-positions = <4 5>;
-			bindings = <&kp N8>;
-			layers = <NM1>;
-		};
 		number_9 {
 			timeout-ms = <100>;
 			key-positions = <10 11>;
 			bindings = <&kp N9>;
+			layers = <NM1>;
+		};
+		number_8 {
+			timeout-ms = <100>;
+			key-positions = <4 5>;
+			bindings = <&kp N8>;
 			layers = <NM1>;
 		};
 
