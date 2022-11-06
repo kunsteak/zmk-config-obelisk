@@ -102,9 +102,6 @@
 			bindings = <&kp ESC>;
 			layers = <AL1 AL2 AL2U>;
 		};
-	};
-
-	numbers_combos {
 		number_8 {
 			timeout-ms = <100>;
 			key-positions = <4 5>;
