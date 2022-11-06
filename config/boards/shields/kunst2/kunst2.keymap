@@ -102,6 +102,15 @@
 			bindings = <&kp ESC>;
 			layers = <AL1 AL2 AL2U>;
 		};
+	};
+
+	numbers_combos {
+		number_8 {
+			timeout-ms = <100>;
+			key-positions = <4 5>;
+			bindings = <&kp N8>;
+			layers = <NM1>;
+		};
 		number_0 {
 			timeout-ms = <100>;
 			key-positions = <11 12>;
@@ -120,13 +129,6 @@
 			bindings = <&kp N9>;
 			layers = <NM1>;
 		};
-		number_8 {
-			timeout-ms = <100>;
-			key-positions = <4 5>;
-			bindings = <&kp N8>;
-			layers = <NM1>;
-		};
-
 	};
 
 	behaviors {
