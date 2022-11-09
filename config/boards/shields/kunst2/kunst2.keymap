@@ -37,14 +37,7 @@
 			timeout-ms = <30>;
 			key-positions = <3 4 5>;
 			bindings = <&tog SYS>;
-//			layers = <AL1>;
 		};
-//		combo_al1 {
-//			timeout-ms = <30>;
-//			key-positions = <10 11 12>;
-//			bindings = <&to AL1>;
-//			layers = <SYS>;
-//		};
 		combo_caps {
 			timeout-ms = <30>;
 			key-positions = <10 11 12>;
