@@ -37,6 +37,7 @@
 			timeout-ms = <30>;
 			key-positions = <3 4 5>;
 			bindings = <&to SYS>;
+			layers = <AL1>;
 		};
 		combo_al1 {
 			timeout-ms = <30>;
