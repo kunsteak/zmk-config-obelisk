@@ -38,6 +38,11 @@
 			key-positions = <3 4 5>;
 			bindings = <&tog SYS>;
 		};
+		combo_img {
+			timeout-ms = <30>;
+			key-positions = <0 1 2>;
+			bindings = <&tog IMG>;
+		};
 		combo_caps {
 			timeout-ms = <30>;
 			key-positions = <10 11 12>;
@@ -66,11 +71,6 @@
 			key-positions = <3 4>;
 			bindings = <&mkp RCLK>;
 			layers = <SYS>;
-		};
-		combo_img {
-			timeout-ms = <30>;
-			key-positions = <0 1 2>;
-			bindings = <&to IMG>;
 		};
 		bksp {
 			timeout-ms = <50>;
@@ -269,9 +269,9 @@
 
 		img {
 			bindings = <
-							&kp LCTL	&kp LALT	&kp LGUI		&none	&none	&kp BKSP
-				&kp LSHIFT  &td M I		&td P B		&td A V			&none	&none	&none	&kp RET
-							&kp SPC		&to AL1						&none	&none
+							&hm_l LCTL V	&hm_l LALT A	&hm_l LGUI P		&none	&none	&kp BKSP
+				&kp LSHIFT  &td I G		&td H M		&kp Z						&none	&none	&none	&kp RET
+							&kp SPC		&kp LGUI								&none	&none
 			>;
 		};
 	};
