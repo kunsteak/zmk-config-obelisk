@@ -106,7 +106,7 @@
 			timeout-ms = <100>;
 			key-positions = <11 12>;
 			bindings = <&kp N0>;
-			layers = <NM1>;
+			layers = <NM1 IMG>;
 		};
 		number_7 {
 			timeout-ms = <100>;
