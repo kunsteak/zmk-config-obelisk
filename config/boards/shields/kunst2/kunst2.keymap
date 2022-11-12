@@ -270,7 +270,7 @@
 		img {
 			bindings = <
 							&hm_l LCTL V	&hm_l LALT A	&hm_l LGUI P		&none	&none	&kp BKSP
-				&kp LSHIFT  &td I G		&td H M		&kp Z						&none	&none	&none	&kp RET
+				&kp LSHIFT  &td I G		&td H M		&td J Z						&none	&none	&none	&kp RET
 							&kp SPC		&kp LGUI								&none	&none
 			>;
 		};
