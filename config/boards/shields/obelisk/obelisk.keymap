@@ -38,11 +38,11 @@
 			key-positions = <3 4 5>;
 			bindings = <&tog SYS>;
 		};
-		combo_img {
-			timeout-ms = <30>;
-			key-positions = <0 1 2>;
-			bindings = <&tog IMG>;
-		};
+		/* combo_img { */
+		/* 	timeout-ms = <30>; */
+		/* 	key-positions = <0 1 2>; */
+		/* 	bindings = <&tog IMG>; */
+		/* }; */
 		combo_caps {
 			timeout-ms = <30>;
 			key-positions = <10 11 12>;
@@ -97,25 +97,25 @@
 			layers = <AL1 AL2 AL2U>;
 		};
 		number_8 {
-			timeout-ms = <100>;
+			timeout-ms = <200>;
 			key-positions = <4 5>;
 			bindings = <&kp N8>;
 			layers = <NM1>;
 		};
 		number_0 {
-			timeout-ms = <100>;
+			timeout-ms = <200>;
 			key-positions = <11 12>;
 			bindings = <&kp N0>;
 			layers = <NM1 IMG>;
 		};
 		number_7 {
-			timeout-ms = <100>;
+			timeout-ms = <200>;
 			key-positions = <3 4>;
 			bindings = <&kp N7>;
 			layers = <NM1>;
 		};
 		number_9 {
-			timeout-ms = <100>;
+			timeout-ms = <200>;
 			key-positions = <10 11>;
 			bindings = <&kp N9>;
 			layers = <NM1>;
@@ -207,15 +207,15 @@
 			bindings = <
 								&hm_l LCTL L	&hm_l LALT G	&hm_l LGUI D		&hm_r RGUI H	&hm_r RALT U	&hm_r RCTL O	  
 				&hl_l NM1 I		&hl_l SM2 S		&hl_l SM1 R		&hl_l SYS T			&hl_r SYS N		&hl_r SM1 E		&hl_r SM2 A		&hl_r NM1 C
-								&mt LC(LS(LALT)) SPC			&key_repeat			&caps_alpha2macro	&alpha2macro
+								&mt LC(LS(LALT)) SPC			&kp LSHIFT 			&key_repeat	    &sl AL2
 			>;
 		};
 
 		alpha2 {
 			bindings = <
-						&kp V	&kp W	&kp M		&kp F	&kp SQT		&kp Z
-				&kp Q	&kp J	&kp P	&kp K		&kp B	&kp DOT		&kp X	&kp Y 
-						&sk LSHIFT	&trans			&none	&sl AL2U	
+						&kp V	&kp W	&kp M		&kp F	&kp SQT	       	&kp Z
+				&kp Q	&kp J	&kp P	&kp K		&kp B	&td COMMA DOT	&kp X	&kp Y 
+						&trans	&trans			    &trans	&sl AL2U	
 			>;
 		};
 
