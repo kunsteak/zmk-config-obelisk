@@ -247,7 +247,7 @@
 			bindings = <
 									&kp ESC			&kp LG(LBRC)		&kp RG(RBRC)		&td LG(V) LG(C)		&kp UP		&td Q BKSP
 				&td LG(GRAVE) TAB	&td HOME DEL	&td END LG(LBKT)	&kp LG(RBKT)		&td TAB LEFT		&kp DOWN	&td  LG(LS(N5)) RIGHT	&kp RET
-									&kp LSHIFT		&kp LALT								&kp RALT	&kp RGUI
+									&kp LSHIFT		&kp LCTL								&kp RALT	&kp RGUI
 			>;
 		};
 
