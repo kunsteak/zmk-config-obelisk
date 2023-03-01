@@ -213,9 +213,9 @@
 
 		alpha2 {
 			bindings = <
-						&kp V	&kp W	&kp M		&kp F	&kp SQT	       	&kp Z
+						&kp V	&kp W	&kp M		  &kp F	&kp SQT	       	&kp Z
 				&kp Q	&kp J	&kp P	&kp K		&kp B	&td COMMA DOT	&kp X	&kp Y 
-						&trans	&trans			    &trans	&sl AL2U	
+						&sk LSHIFT	&trans		&trans	&sl AL2U	
 			>;
 		};
 
